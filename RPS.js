@@ -77,9 +77,9 @@ function updateScoreElement() {
 
 function updateMovesElement(playerMove, computerMove) {
     movesParagraph.innerHTML = `You 
-    <img src="/images/${playerMove.toLowerCase()}-emoji.png" class="move-icon">
+    <img src="${playerMove.toLowerCase()}-emoji.png" class="move-icon">
     Computer 
-    <img src="/images/${computerMove.toLowerCase()}-emoji.png" class="move-icon">`;
+    <img src="${computerMove.toLowerCase()}-emoji.png" class="move-icon">`;
 }
 
 function updateResultElement(result) {
